@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="vi">	
 <head>
     <meta charset="UTF-8">
@@ -95,6 +95,13 @@
         }
         
         .sticker.keyboard {
+            top: 30%; 
+            left: 60px;
+            width: 50px; 
+            transform: rotate(5deg);
+        }
+        
+        .sticker.music {
             bottom: 200px; 
             left: auto; 
             right: 70px; /* Đã sửa: Đẩy qua trái một chút */
@@ -102,15 +109,8 @@
             transform: rotate(-10deg);
         }
         
-        .sticker.music {
-            top: 25%; 
-            left: 60px;
-            width: 55px; 
-            transform: rotate(5deg);
-        }
-        
         .sticker.watch {
-            bottom: 70px; 
+            bottom: 50px; 
             right: 40px;
             width: 65px; 
             transform: rotate(-15deg);
@@ -123,16 +123,9 @@
             transform: rotate(10deg);
         }
         
-        .sticker.cat {
-            bottom: 95px; 
-            right: 20px;
-            width: 70px; 
-            transform: rotate(5deg);
-        }
-        
         .sticker.star {
-            top: 55%; 
-            left: 30px;
+            top: 50%; 
+            left: 110px;
             width: 50px; 
             transform: rotate(15deg);
         }
@@ -156,7 +149,7 @@
         /* Custom sticker styles for sticker1-6 */
         .sticker-custom {
             position: absolute;
-            width: 60px; /* Đã tăng kích thước chung cho các sticker này */
+            width: 70px; /* Đã tăng kích thước chung cho các sticker này */
             opacity: 0.9;
             animation: float 6s ease-in-out infinite; /* Animation nổi */
             z-index: 0; /* Đảm bảo nằm dưới các sticker Flaticon và nội dung chính */
@@ -167,7 +160,6 @@
         /* sticker-custom-2 có animation riêng */
         .sticker-custom-3 { bottom: 25%; left: 25%; transform: rotate(20deg); }
         .sticker-custom-4 { bottom: 25%; right: 25%; transform: rotate(-10deg); }
-        .sticker-custom-5 { top: 50%; left: 15%; transform: rotate(15deg); }
         .sticker-custom-6 { bottom: 55%; right: 15%; transform: rotate(-20deg); }
 
         /* Animation mặc định cho các sticker-custom còn lại */
@@ -237,14 +229,12 @@
     <img src="https://cdn-icons-png.flaticon.com/512/2933/2933245.png" class="sticker keyboard" alt="Sticker bàn phím">
     <img src="https://cdn-icons-png.flaticon.com/512/3659/3659899.png" class="sticker music" alt="Sticker máy nghe nhạc">
     <img src="https://cdn-icons-png.flaticon.com/512/535/535183.png" class="sticker heart" alt="Sticker trái tim">
-    <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" class="sticker cat" alt="Sticker mèo">
     <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" class="sticker star" alt="Sticker ngôi sao">
     
     <img src="stickers/sticker1.png" class="sticker-custom sticker-custom-1" alt="Sticker 1">
     <img src="stickers/sticker2.png" class="sticker-custom sticker-custom-2" alt="Sticker 2">
     <img src="stickers/sticker3.png" class="sticker-custom sticker-custom-3" alt="Sticker 3">
     <img src="stickers/sticker4.png" class="sticker-custom sticker-custom-4" alt="Sticker 4">
-    <img src="stickers/sticker5.png" class="sticker-custom sticker-custom-5" alt="Sticker 5">
     <img src="stickers/sticker6.png" class="sticker-custom sticker-custom-6" alt="Sticker 6">
 
     <img src="https://cdn-icons-png.flaticon.com/512/781/781842.png" class="sticker angry" alt="Sticker giận dữ">
